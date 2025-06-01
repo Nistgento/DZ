@@ -30,7 +30,7 @@ public class Product {
     public void setReserved(boolean reserved) {
         isReserved = reserved;
     }
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Product product = new Product(
                 "SmatPhome Redmi X Note Pro",
                 LocalDate.of(2025, 5, 30),
@@ -42,3 +42,4 @@ public class Product {
         product.printProductInfo();
     }
 }
+
