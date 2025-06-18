@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-18T10:28:37 MSK" name="MTS Tests" finished-at="2025-06-18T10:29:24 MSK" duration-ms="46900">
+    <groups>
+    </groups>
+    <test started-at="2025-06-18T10:28:37 MSK" name="All Tests" finished-at="2025-06-18T10:29:24 MSK" duration-ms="46900">
+      <class name="PaymentLogosTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:43 MSK" name="setup" finished-at="2025-06-18T10:28:49 MSK" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogos()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:49 MSK" name="testLogos" finished-at="2025-06-18T10:28:49 MSK" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:49 MSK" name="tearDown" finished-at="2025-06-18T10:28:49 MSK" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PaymentLogosTest -->
+      <class name="PaymentFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:14 MSK" name="setup" finished-at="2025-06-18T10:29:21 MSK" duration-ms="6708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForm()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:21 MSK" name="testForm" finished-at="2025-06-18T10:29:24 MSK" duration-ms="3072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:24 MSK" name="tearDown" finished-at="2025-06-18T10:29:24 MSK" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PaymentFormTest -->
+      <class name="DetailsLinkTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:28:49 MSK" name="setup" finished-at="2025-06-18T10:28:54 MSK" duration-ms="5245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLink()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:28:54 MSK" name="testLink" finished-at="2025-06-18T10:29:14 MSK" duration-ms="19579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:29:14 MSK" name="tearDown" finished-at="2025-06-18T10:29:14 MSK" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DetailsLinkTest -->
+      <class name="BlockTitleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:37 MSK" name="setup" finished-at="2025-06-18T10:28:43 MSK" duration-ms="6049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTitle()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:43 MSK" name="testTitle" finished-at="2025-06-18T10:28:43 MSK" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:43 MSK" name="tearDown" finished-at="2025-06-18T10:28:43 MSK" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BlockTitleTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- MTS Tests -->
+</testng-results>
