@@ -8,14 +8,60 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">MTS Tests</th></tr>
-<tr><td><a href="#t0">All Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">46 900</td><td></td><td></td></tr>
+<tr><th colspan="8">MTS Test Suite</th></tr>
+<tr><td><a href="#t0">Block Title Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8 084</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Details Link Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45 616</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Payment Logos Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5 741</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Payment Form Tests</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">99 714</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">159 155</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MTS Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">BlockTitleTest</td><td><a href="#m0">testTitle</a></td><td rowspan="1">1750231723597</td><td rowspan="1">24</td></tr><tr class="passedodd"><td rowspan="1">DetailsLinkTest</td><td><a href="#m1">testLink</a></td><td rowspan="1">1750231734773</td><td rowspan="1">19579</td></tr><tr class="passedeven"><td rowspan="1">PaymentFormTest</td><td><a href="#m2">testForm</a></td><td rowspan="1">1750231761210</td><td rowspan="1">3072</td></tr><tr class="passedodd"><td rowspan="1">PaymentLogosTest</td><td><a href="#m3">testLogos</a></td><td rowspan="1">1750231729230</td><td rowspan="1">83</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MTS Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Block Title Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.BlockTitleTest</td><td><a href="#m0">testTitle</a></td><td rowspan="1">1750632713271</td><td rowspan="1">6370</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Details Link Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.DetailsLinkTest</td><td><a href="#m1">testLink</a></td><td rowspan="1">1750632713271</td><td rowspan="1">43879</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Payment Logos Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.PaymentLogosTest</td><td><a href="#m2">testLogos</a></td><td rowspan="1">1750632757911</td><td rowspan="1">5004</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Payment Form Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.PaymentFormTest</td><td><a href="#m3">testForm</a></td><td rowspan="1">1750632720439</td><td rowspan="1">7168</td></tr><tr class="failedeven"><td><a href="#m4">testPaymentDetails</a></td><td rowspan="1">1750632727611</td><td rowspan="1">53383</td></tr><tr class="failedeven"><td><a href="#m5">testPlaceholders</a></td><td rowspan="1">1750632781000</td><td rowspan="1">38234</td></tr></tbody>
 </table>
-<h2>All Tests</h2><h3 id="m0">BlockTitleTest#testTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">DetailsLinkTest#testLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">PaymentFormTest#testForm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">PaymentLogosTest#testLogos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Block Title Test</h2><h3 id="m0">tests.BlockTitleTest#testTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Details Link Test</h2><h3 id="m1">tests.DetailsLinkTest#testLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Payment Logos Test</h2><h3 id="m2">tests.PaymentLogosTest#testLogos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Payment Form Tests</h2><h3 id="m3">tests.PaymentFormTest#testForm</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Payment form not displayed expected [true] but found [false]
+	at tests.PaymentFormTest.testForm(PaymentFormTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.PaymentFormTest#testPaymentDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;payment-info&apos;)]//div[contains(., &apos;Номер телефона&apos;)]/following-sibling::div (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-RROJRLR&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.PaymentPage.getDisplayedPhoneNumber(PaymentPage.java:91)
+	at tests.PaymentFormTest.testPaymentDetails(PaymentFormTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.PaymentFormTest#testPlaceholders</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Номер карты&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-RROJRLR&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.PaymentPage.getCardNumberPlaceholder(PaymentPage.java:73)
+	at tests.PaymentFormTest.testPlaceholders(PaymentFormTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

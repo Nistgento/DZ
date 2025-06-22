@@ -1,67 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="3" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T10:28:37 MSK" name="MTS Tests" finished-at="2025-06-18T10:29:24 MSK" duration-ms="46900">
+  <suite started-at="2025-06-23T01:51:51 MSK" name="MTS Test Suite" finished-at="2025-06-23T01:53:39 MSK" duration-ms="107823">
     <groups>
     </groups>
-    <test started-at="2025-06-18T10:28:37 MSK" name="All Tests" finished-at="2025-06-18T10:29:24 MSK" duration-ms="46900">
-      <class name="PaymentLogosTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:43 MSK" name="setup" finished-at="2025-06-18T10:28:49 MSK" duration-ms="5376" status="PASS">
+    <test started-at="2025-06-23T01:51:51 MSK" name="Block Title Test" finished-at="2025-06-23T01:51:59 MSK" duration-ms="8084">
+      <class name="tests.BlockTitleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BlockTitleTest@378542de]" started-at="2025-06-23T01:51:51 MSK" name="setup" finished-at="2025-06-23T01:51:53 MSK" duration-ms="1522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogos()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:49 MSK" name="testLogos" finished-at="2025-06-18T10:28:49 MSK" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogos -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:PaymentLogosTest@120f102b]" started-at="2025-06-18T10:28:49 MSK" name="tearDown" finished-at="2025-06-18T10:28:49 MSK" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- PaymentLogosTest -->
-      <class name="PaymentFormTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:14 MSK" name="setup" finished-at="2025-06-18T10:29:21 MSK" duration-ms="6708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testForm()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:21 MSK" name="testForm" finished-at="2025-06-18T10:29:24 MSK" duration-ms="3072" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testForm -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:PaymentFormTest@51dcb805]" started-at="2025-06-18T10:29:24 MSK" name="tearDown" finished-at="2025-06-18T10:29:24 MSK" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- PaymentFormTest -->
-      <class name="DetailsLinkTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:28:49 MSK" name="setup" finished-at="2025-06-18T10:28:54 MSK" duration-ms="5245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLink()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:28:54 MSK" name="testLink" finished-at="2025-06-18T10:29:14 MSK" duration-ms="19579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:DetailsLinkTest@625732]" started-at="2025-06-18T10:29:14 MSK" name="tearDown" finished-at="2025-06-18T10:29:14 MSK" duration-ms="149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- DetailsLinkTest -->
-      <class name="BlockTitleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:37 MSK" name="setup" finished-at="2025-06-18T10:28:43 MSK" duration-ms="6049" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testTitle()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:43 MSK" name="testTitle" finished-at="2025-06-18T10:28:43 MSK" duration-ms="24" status="PASS">
+        <test-method signature="testTitle()[pri:0, instance:tests.BlockTitleTest@378542de]" started-at="2025-06-23T01:51:53 MSK" name="testTitle" finished-at="2025-06-23T01:51:59 MSK" duration-ms="6370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BlockTitleTest@be35cd9]" started-at="2025-06-18T10:28:43 MSK" name="tearDown" finished-at="2025-06-18T10:28:43 MSK" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlockTitleTest@378542de]" started-at="2025-06-23T01:51:59 MSK" name="tearDown" finished-at="2025-06-23T01:51:59 MSK" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- BlockTitleTest -->
-    </test> <!-- All Tests -->
-  </suite> <!-- MTS Tests -->
+      </class> <!-- tests.BlockTitleTest -->
+    </test> <!-- Block Title Test -->
+    <test started-at="2025-06-23T01:51:51 MSK" name="Details Link Test" finished-at="2025-06-23T01:52:37 MSK" duration-ms="45616">
+      <class name="tests.DetailsLinkTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DetailsLinkTest@6a84a97d]" started-at="2025-06-23T01:51:51 MSK" name="setup" finished-at="2025-06-23T01:51:53 MSK" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLink()[pri:0, instance:tests.DetailsLinkTest@6a84a97d]" started-at="2025-06-23T01:51:53 MSK" name="testLink" finished-at="2025-06-23T01:52:37 MSK" duration-ms="43879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DetailsLinkTest@6a84a97d]" started-at="2025-06-23T01:52:37 MSK" name="tearDown" finished-at="2025-06-23T01:52:37 MSK" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DetailsLinkTest -->
+    </test> <!-- Details Link Test -->
+    <test started-at="2025-06-23T01:52:37 MSK" name="Payment Logos Test" finished-at="2025-06-23T01:52:43 MSK" duration-ms="5741">
+      <class name="tests.PaymentLogosTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PaymentLogosTest@33990a0c]" started-at="2025-06-23T01:52:37 MSK" name="setup" finished-at="2025-06-23T01:52:37 MSK" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogos()[pri:0, instance:tests.PaymentLogosTest@33990a0c]" started-at="2025-06-23T01:52:37 MSK" name="testLogos" finished-at="2025-06-23T01:52:42 MSK" duration-ms="5004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PaymentLogosTest@33990a0c]" started-at="2025-06-23T01:52:42 MSK" name="tearDown" finished-at="2025-06-23T01:52:43 MSK" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PaymentLogosTest -->
+    </test> <!-- Payment Logos Test -->
+    <test started-at="2025-06-23T01:51:59 MSK" name="Payment Form Tests" finished-at="2025-06-23T01:53:39 MSK" duration-ms="99714">
+      <class name="tests.PaymentFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PaymentFormTest@6bedbc4d]" started-at="2025-06-23T01:51:59 MSK" name="setup" finished-at="2025-06-23T01:52:00 MSK" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testForm()[pri:0, instance:tests.PaymentFormTest@6bedbc4d]" started-at="2025-06-23T01:52:00 MSK" name="testForm" finished-at="2025-06-23T01:52:07 MSK" duration-ms="7168" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Payment form not displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Payment form not displayed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at tests.PaymentFormTest.testForm(PaymentFormTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForm -->
+        <test-method signature="testPaymentDetails()[pri:0, instance:tests.PaymentFormTest@6bedbc4d]" started-at="2025-06-23T01:52:07 MSK" name="testPaymentDetails" finished-at="2025-06-23T01:53:00 MSK" duration-ms="53383" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'payment-info')]//div[contains(., 'Номер телефона')]/following-sibling::div (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'payment-info')]//div[contains(., 'Номер телефона')]/following-sibling::div (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.PaymentPage.getDisplayedPhoneNumber(PaymentPage.java:91)
+at tests.PaymentFormTest.testPaymentDetails(PaymentFormTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPaymentDetails -->
+        <test-method signature="testPlaceholders()[pri:0, instance:tests.PaymentFormTest@6bedbc4d]" started-at="2025-06-23T01:53:01 MSK" name="testPlaceholders" finished-at="2025-06-23T01:53:39 MSK" duration-ms="38234" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Номер карты'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Номер карты'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.PaymentPage.getCardNumberPlaceholder(PaymentPage.java:73)
+at tests.PaymentFormTest.testPlaceholders(PaymentFormTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PaymentFormTest@6bedbc4d]" started-at="2025-06-23T01:53:39 MSK" name="tearDown" finished-at="2025-06-23T01:53:39 MSK" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PaymentFormTest -->
+    </test> <!-- Payment Form Tests -->
+  </suite> <!-- MTS Test Suite -->
 </testng-results>

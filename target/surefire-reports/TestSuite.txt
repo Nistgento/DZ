@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.275 s - in TestSuite
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 108.311 s <<< FAILURE! - in TestSuite
+testForm(tests.PaymentFormTest)  Time elapsed: 7.172 s  <<< FAILURE!
+java.lang.AssertionError: Payment form not displayed expected [true] but found [false]
+	at tests.PaymentFormTest.testForm(PaymentFormTest.java:30)
+
+testPaymentDetails(tests.PaymentFormTest)  Time elapsed: 23.088 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, 'payment-info')]//div[contains(., 'Номер телефона')]/following-sibling::div (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at tests.PaymentFormTest.testPaymentDetails(PaymentFormTest.java:69)
+
+testPlaceholders(tests.PaymentFormTest)  Time elapsed: 38.235 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Номер карты'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-RROJRLR', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at tests.PaymentFormTest.testPlaceholders(PaymentFormTest.java:48)
+

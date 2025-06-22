@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-MTS_Tests" class="navigator-link">
-              <span class="suite-name border-passed">MTS Tests</span>
+            <a href="#" panel-name="suite-MTS_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">MTS Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="test-xml-MTS_Test_Suite" class="navigator-link ">
                     <span>C:\Users\Nistgento\Desktop\LDZ\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-MTS_Tests" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-MTS_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="group-MTS_Test_Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="times-MTS_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="reporter-MTS_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-MTS_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-MTS_Tests" class="navigator-link ">
+                  <a href="#" panel-name="chronological-MTS_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,36 +93,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MTS_Test_Suite" class="hide-methods failed suite-MTS_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-MTS_Test_Suite -->
+                      <a href="#" panel-name="suite-MTS_Test_Suite" class="show-methods failed suite-MTS_Test_Suite"> (show)</a> <!-- show-methods failed suite-MTS_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-MTS_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.PaymentFormTest" class="method navigator-link" hash-for-method="testForm">testForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.PaymentFormTest" class="method navigator-link" hash-for-method="testPaymentDetails">testPaymentDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.PaymentFormTest" class="method navigator-link" hash-for-method="testPlaceholders">testPlaceholders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MTS_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-MTS_Tests" class="hide-methods passed suite-MTS_Tests"> (hide)</a> <!-- hide-methods passed suite-MTS_Tests -->
-                      <a href="#" panel-name="suite-MTS_Tests" class="show-methods passed suite-MTS_Tests"> (show)</a> <!-- show-methods passed suite-MTS_Tests -->
+                      <a href="#" panel-name="suite-MTS_Test_Suite" class="hide-methods passed suite-MTS_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-MTS_Test_Suite -->
+                      <a href="#" panel-name="suite-MTS_Test_Suite" class="show-methods passed suite-MTS_Test_Suite"> (show)</a> <!-- show-methods passed suite-MTS_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-MTS_Tests">
+                    <div class="method-list-content passed suite-MTS_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MTS_Tests" title="PaymentFormTest" class="method navigator-link" hash-for-method="testForm">testForm</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.DetailsLinkTest" class="method navigator-link" hash-for-method="testLink">testLink</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MTS_Tests" title="DetailsLinkTest" class="method navigator-link" hash-for-method="testLink">testLink</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.PaymentLogosTest" class="method navigator-link" hash-for-method="testLogos">testLogos</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MTS_Tests" title="PaymentLogosTest" class="method navigator-link" hash-for-method="testLogos">testLogos</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-MTS_Test_Suite" title="tests.BlockTitleTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-MTS_Tests" title="BlockTitleTest" class="method navigator-link" hash-for-method="testTitle">testTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-MTS_Tests -->
+                    </div> <!-- method-list-content passed suite-MTS_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -133,11 +152,11 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-MTS_Tests" class="panel MTS_Tests">
-          <div class="suite-MTS_Tests-class-passed">
+        <div panel-name="suite-MTS_Test_Suite" class="panel MTS_Test_Suite">
+          <div class="suite-MTS_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">PaymentFormTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">tests.PaymentFormTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -145,29 +164,71 @@
                   <a name="testForm">
                   </a> <!-- testForm -->
                   <span class="method-name">testForm</span>
+                  <div class="stack-trace">java.lang.AssertionError: Payment form not displayed expected [true] but found [false]
+	at tests.PaymentFormTest.testForm(PaymentFormTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MTS_Tests-class-passed -->
-          <div class="suite-MTS_Tests-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">DetailsLinkTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testLink">
-                  </a> <!-- testLink -->
-                  <span class="method-name">testLink</span>
+                  <a name="testPaymentDetails">
+                  </a> <!-- testPaymentDetails -->
+                  <span class="method-name">testPaymentDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class, &apos;payment-info&apos;)]//div[contains(., &apos;Номер телефона&apos;)]/following-sibling::div (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-RROJRLR&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.PaymentPage.getDisplayedPhoneNumber(PaymentPage.java:91)
+	at tests.PaymentFormTest.testPaymentDetails(PaymentFormTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPlaceholders">
+                  </a> <!-- testPlaceholders -->
+                  <span class="method-name">testPlaceholders</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Номер карты&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-RROJRLR&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.119, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\NISTGE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53052}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53052/devtoo..., se:cdpVersion: 137.0.7151.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3af1d618be6d63601efb5afb114b5556
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pages.PaymentPage.getCardNumberPlaceholder(PaymentPage.java:73)
+	at tests.PaymentFormTest.testPlaceholders(PaymentFormTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MTS_Tests-class-passed -->
-          <div class="suite-MTS_Tests-class-passed">
+          </div> <!-- suite-MTS_Test_Suite-class-failed -->
+          <div class="suite-MTS_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">PaymentLogosTest</span>
+              <span class="class-name">tests.PaymentLogosTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -178,11 +239,11 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MTS_Tests-class-passed -->
-          <div class="suite-MTS_Tests-class-passed">
+          </div> <!-- suite-MTS_Test_Suite-class-passed -->
+          <div class="suite-MTS_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">BlockTitleTest</span>
+              <span class="class-name">tests.BlockTitleTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -193,9 +254,24 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-MTS_Tests-class-passed -->
-        </div> <!-- panel MTS_Tests -->
-        <div panel-name="test-xml-MTS_Tests" class="panel">
+          </div> <!-- suite-MTS_Test_Suite-class-passed -->
+          <div class="suite-MTS_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DetailsLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLink">
+                  </a> <!-- testLink -->
+                  <span class="method-name">testLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MTS_Test_Suite-class-passed -->
+        </div> <!-- panel MTS_Test_Suite -->
+        <div panel-name="test-xml-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">C:\Users\Nistgento\Desktop\LDZ\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
@@ -203,156 +279,214 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;MTS Tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;All Tests&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;MTS Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Block Title Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;BlockTitleTest&quot;/&gt;
-      &lt;class name=&quot;PaymentLogosTest&quot;/&gt;
-      &lt;class name=&quot;DetailsLinkTest&quot;/&gt;
-      &lt;class name=&quot;PaymentFormTest&quot;/&gt;
+      &lt;class name=&quot;tests.BlockTitleTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- All Tests --&gt;
-&lt;/suite&gt; &lt;!-- MTS Tests --&gt;
+  &lt;/test&gt; &lt;!-- Block Title Test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Details Link Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DetailsLinkTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Details Link Test --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Payment Form Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PaymentFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Payment Form Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Payment Logos Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PaymentLogosTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Payment Logos Test --&gt;
+&lt;/suite&gt; &lt;!-- MTS Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-MTS_Tests" class="panel">
+        <div panel-name="testlist-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for MTS Tests</span>
+            <span class="header-content">Tests for MTS Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">All Tests (4 classes)</span>
+                <span class="test-name">Block Title Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Details Link Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Payment Form Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Payment Logos Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-MTS_Tests" class="panel">
+        <div panel-name="group-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for MTS Tests</span>
+            <span class="header-content">Groups for MTS Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-MTS_Tests" class="panel">
+        <div panel-name="times-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for MTS Tests</span>
+            <span class="header-content">Times for MTS Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_MTS_Tests');
-function tableData_MTS_Tests() {
+suiteTableInitFunctions.push('tableData_MTS_Test_Suite');
+function tableData_MTS_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testLink')
-data.setCell(0, 2, 'DetailsLinkTest')
-data.setCell(0, 3, 19579);
+data.setCell(0, 1, 'testPaymentDetails')
+data.setCell(0, 2, 'tests.PaymentFormTest')
+data.setCell(0, 3, 53383);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testForm')
-data.setCell(1, 2, 'PaymentFormTest')
-data.setCell(1, 3, 3072);
+data.setCell(1, 1, 'testLink')
+data.setCell(1, 2, 'tests.DetailsLinkTest')
+data.setCell(1, 3, 43879);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLogos')
-data.setCell(2, 2, 'PaymentLogosTest')
-data.setCell(2, 3, 83);
+data.setCell(2, 1, 'testPlaceholders')
+data.setCell(2, 2, 'tests.PaymentFormTest')
+data.setCell(2, 3, 38234);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testTitle')
-data.setCell(3, 2, 'BlockTitleTest')
-data.setCell(3, 3, 24);
-window.suiteTableData['MTS_Tests']= { tableData: data, tableDiv: 'times-div-MTS_Tests'}
+data.setCell(3, 1, 'testForm')
+data.setCell(3, 2, 'tests.PaymentFormTest')
+data.setCell(3, 3, 7168);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testTitle')
+data.setCell(4, 2, 'tests.BlockTitleTest')
+data.setCell(4, 3, 6370);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogos')
+data.setCell(5, 2, 'tests.PaymentLogosTest')
+data.setCell(5, 3, 5004);
+window.suiteTableData['MTS_Test_Suite']= { tableData: data, tableDiv: 'times-div-MTS_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
-              <div id="times-div-MTS_Tests">
-              </div> <!-- times-div-MTS_Tests -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MTS_Test_Suite">
+              </div> <!-- times-div-MTS_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-MTS_Tests" class="panel">
+        <div panel-name="reporter-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for MTS Tests</span>
+            <span class="header-content">Reporter output for MTS Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-MTS_Tests" class="panel">
+        <div panel-name="ignored-methods-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-MTS_Tests" class="panel">
+        <div panel-name="chronological-MTS_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">BlockTitleTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.BlockTitleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DetailsLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BlockTitleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testTitle</span>
-                <span class="method-start">6054 ms</span>
+                <span class="method-start">1529 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DetailsLinkTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLink</span>
+                <span class="method-start">1529 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.BlockTitleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6079 ms</span>
+                <span class="method-start">7901 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">PaymentLogosTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.PaymentFormTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">6311 ms</span>
+                <span class="method-start">8098 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testForm</span>
+                <span class="method-start">8697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPaymentDetails</span>
+                <span class="method-start">15869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DetailsLinkTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45408 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PaymentLogosTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45613 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogos</span>
-                <span class="method-start">11687 ms</span>
+                <span class="method-start">46169 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11770 ms</span>
+                <span class="method-start">51174 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">DetailsLinkTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">11985 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="chronological-class-name">tests.PaymentFormTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testLink</span>
-                <span class="method-start">17230 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPlaceholders</span>
+                <span class="method-start">69258 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36809 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">PaymentFormTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">36959 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">testForm</span>
-                <span class="method-start">43667 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">46740 ms</span>
+                <span class="method-start">107492 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

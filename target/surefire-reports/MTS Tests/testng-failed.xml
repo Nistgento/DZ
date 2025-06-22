@@ -3,13 +3,28 @@
 <suite name="Failed suite [MTS Tests]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="All Tests(failed)" verbose="0">
     <classes>
-      <class name="PaymentFormTest">
+      <class name="tests.PaymentLogosTest">
         <methods>
+          <include name="testLogos"/>
           <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="testForm"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- PaymentFormTest -->
+      </class> <!-- tests.PaymentLogosTest -->
+      <class name="tests.PaymentTests">
+        <methods>
+          <include name="testEmptyFieldLabels"/>
+          <include name="testMobilePayment"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.PaymentTests -->
+      <class name="tests.PaymentFormTest">
+        <methods>
+          <include name="testForm"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.PaymentFormTest -->
     </classes>
   </test> <!-- All Tests(failed) -->
 </suite> <!-- Failed suite [MTS Tests] -->
